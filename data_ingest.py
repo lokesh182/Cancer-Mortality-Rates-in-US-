@@ -15,5 +15,5 @@ class DataIngest:
         """
         self.data_path = data_path
         df = pd.read_csv(self.data_path)
-        return df.head(5)
+        return df
     
